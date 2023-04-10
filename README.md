@@ -38,7 +38,7 @@ https://ivynyayieka.github.io/anthems/)
 
 You can see all the minor words I selected [here](https://github.com/ivynyayieka/anthems/blob/main/minor_words.csv)<br />
 
-#Tech
+# Tech
 
 Python, R, Adobe Illustrator, Datawrapper, Flourish, ai2html
 
@@ -52,5 +52,5 @@ Basic verbs: handpicked eg. have, are, be <br/>
 Source of books in the world: World Digital Library <br/>
 [Source of most_frequently challenged books by decades](https://www.ala.org/advocacy/bbooks/frequentlychallengedbooks/top100)<br/>
 [Source of censorship attacks](https://www.everylibraryinstitute.org/book_censorship_database_magnusson)<br/>
-[Source of censored books in India] (https://en.wikipedia.org/wiki/List_of_books_banned_in_India)<br/>
+[Source of censored books in India](https://en.wikipedia.org/wiki/List_of_books_banned_in_India)<br/>
 Other online searches for publication dates
