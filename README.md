@@ -1,4 +1,4 @@
-In this is a project, I analysed banned books across the world and within the United States. Even though the global database contained books starting from the 1300s, I limited my analysis t0 1920 to 2020, a period for which I thought reporting of bans could be considered more reliable. <br />
+In this project, I analysed banned books across the world and within the United States. Even though the global database contained books starting from the 1300s, I limited my analysis to 1920 to 2020, a period for which I thought reporting of bans could be considered more reliable. <br />
 
 # How I analysed the most banned books:
 I checked the most frequently banned books by governments across the world. I highlighted every book banned by 3 governments or more in the treemap. <br />
