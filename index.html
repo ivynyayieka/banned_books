@@ -150,24 +150,21 @@
                                 </div>
                           
                                 <div class="steps-container">
-                                  <div class="step">
+                                  <div class="step" id="step0">
                                     <p>Texas and Florida have the highest number of books challenged at school district level.</p>
                                   </div>
-                                  <div class="step" id="step2">
+                                  <div class="step" id="step1">
                                     <!-- <p>In Texas, Matt Krause, a former member of the Texas House of Representatives, challenged 850 books, saying they could make students uneasy. </p> -->
-                                    <iframe title="Authors in Texas Krause top list " aria-label="Bar Chart" id="datawrapper-chart-KyyKI" src="https://datawrapper.dwcdn.net/KyyKI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="245" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+                                    <iframe title="Authors in Texas Krause top list " aria-label="Bar Chart" id="datawrapper-chart-KyyKI" src="https://datawrapper.dwcdn.net/KyyKI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="245" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
                                     </script>
                                   </div>
-                                  <div class="step" id="step3">
+                                  <div class="step" id="step2">
                                     <p>Texas and Florida have the highest number of school districts challenging books. States in the eastern half of the US generally have a higher number of school districts challenging books.</p>
                                   </div>
-                                  <div class="step" id="step4">
+                                  <div class="step" id="step3">
                                     <p>Louisiana's libraries have the most instances of books being challenged or banned. Compared to school districts, there are fewer cases of books in public libraries being challenged, though still significant.</p>
                                   </div>
-                                  <!-- <div class="step" id="step5">
-                                    <p>Step five.</p>
-                                  </div> -->
-                                </div>
+                                  
                               </section>
                               <div class="body-text">
                                 <p>
@@ -180,87 +177,110 @@
                           
                               <script>
                                 
-                                //  scrollytelling code goes here
-                                d3.select("#step2").on('stepin', function() {
-                                  /* For each step where you change graphics
-                                  you'll need a .classed('hidden'...
-                                  for every iframe you added above.
-                                  I have two charts, so I have two of these */
-                                  
-                                  /* Hide the first chart, show the second chart */
-                                  d3.select("#books_by_state").classed('hidden', true)
-                                  d3.select("#texas_books").classed('hidden', false)
-                                })
-                          
-                                d3.select("#step3").on('stepin', function() {
-                                  /* For each step where you change graphics
-                                  you'll need a .classed('hidden'...
-                                  for every iframe you added above.
-                                  I have two charts, so I have two of these */
-                                  
-                                  /* Hide the first chart, show the second chart */
-                                  d3.select("#texas_books").classed('hidden', true)
-                                  d3.select("#books_by_school_district").classed('hidden', false)
-                                })
-                          
-                                d3.select("#step4").on('stepin', function() {
-                                  /* For each step where you change graphics
-                                  you'll need a .classed('hidden'...
-                                  for every iframe you added above.
-                                  I have two charts, so I have two of these */
-                                  
-                                  /* Hide the first chart, show the second chart */
-                                  d3.select("#books_by_school_district").classed('hidden', true)
-                                  d3.select("#books_by_libraries").classed('hidden', false)
-                                })
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                                // //   //  scrollytelling code goes here
-                                //   d3.select("#step2").on('stepout', function() {
-                                //   /* For each step where you change graphics
-                                //   you'll need a .classed('hidden'...
-                                //   for every iframe you added above.
-                                //   I have two charts, so I have two of these */
-                                  
-                                //   /* Hide the first chart, show the second chart */
-                                //   d3.select("#books_by_state").classed('hidden', false)
-                                //   d3.select("#texas_books").classed('hidden', true)
-                                // })
-                          
-                                //                   // d3.select("#step2").on('stepout', function() {
-                                //                   //   /* For each step where you change graphics
-                                //                   //   you'll need a .classed('hidden'...
-                                //                   //   for every iframe you added above.
-                                //                   //   I have two charts, so I have two of these */
-                                                    
-                                //                   //   /* Hide the first chart, show the second chart */
-                                //                   //   d3.select("#texas_books").classed('hidden', false)
-                                //                   //   d3.select("#books_by_school_district").classed('hidden', true)
-                                //                   // })
-                          
-                                //                                   d3.select("#step3").on('stepout', function() {
-                                //                                     /* For each step where you change graphics
-                                //                                     you'll need a .classed('hidden'...
-                                //                                     for every iframe you added above.
-                                //                                     I have two charts, so I have two of these */
-                                                                    
-                                //                                     /* Hide the first chart, show the second chart */
-                                //                                     d3.select("#books_by_school_district").classed('hidden', false)
-                                //                                     d3.select("#books_by_libraries").classed('hidden', true)
-                                //                                   })
-                          
-                          
-                          
-                          
-                          
-                              </script>
+                              //  scrollytelling code goes here
+                              d3.select("#step1").on('stepin', function() {
+                                console.log("got to step 1")
+                                /* For each step where you change graphics
+                                you'll need a .classed('hidden'...
+                                for every iframe you added above.
+                                I have two charts, so I have two of these */
+                                
+                                /* Hide the first chart, show the second chart */
+                                d3.select("#books_by_state").classed('hidden', true)
+                                d3.select("#texas_books").classed('hidden', false)
+                                d3.select("#books_by_school_district").classed('hidden', true)
+                                d3.select("#books_by_libraries").classed('hidden', true)
+                              })
+                        
+                              d3.select("#step2").on('stepin', function() {
+                                console.log("got to step 2")
+                                /* For each step where you change graphics
+                                you'll need a .classed('hidden'...
+                                for every iframe you added above.
+                                I have two charts, so I have two of these */
+                                
+                                /* Hide the first chart, show the second chart */
+                                d3.select("#books_by_state").classed('hidden', true)
+                                d3.select("#texas_books").classed('hidden', true)
+                                d3.select("#books_by_school_district").classed('hidden', false)
+                                d3.select("#books_by_libraries").classed('hidden', true)
+                              })
+                        
+                              d3.select("#step3").on('stepin', function() {
+                                console.log("got to step 3")
+                                /* For each step where you change graphics
+                                you'll need a .classed('hidden'...
+                                for every iframe you added above.
+                                I have two charts, so I have two of these */
+                                
+                                /* Hide the first chart, show the second chart */
+                                d3.select("#books_by_state").classed('hidden', true)
+                                d3.select("#texas_books").classed('hidden', true)
+                                d3.select("#books_by_school_district").classed('hidden', true)
+                                d3.select("#books_by_libraries").classed('hidden', false)
+                              })
+
+                              d3.select("#step0").on('stepin', function() {
+                                console.log("got to step 0")
+                                /* For each step where you change graphics
+                                you'll need a .classed('hidden'...
+                                for every iframe you added above.
+                                I have two charts, so I have two of these */
+                                
+                                /* Hide the first chart, show the second chart */
+                                d3.select("#books_by_state").classed('hidden', false)
+                                d3.select("#texas_books").classed('hidden', true)
+                                d3.select("#books_by_school_district").classed('hidden', true)
+                                d3.select("#books_by_libraries").classed('hidden', true )
+                              })
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                              // //   //  scrollytelling code goes here
+                              //   d3.select("#step2").on('stepout', function() {
+                              //   /* For each step where you change graphics
+                              //   you'll need a .classed('hidden'...
+                              //   for every iframe you added above.
+                              //   I have two charts, so I have two of these */
+                                
+                              //   /* Hide the first chart, show the second chart */
+                              //   d3.select("#books_by_state").classed('hidden', false)
+                              //   d3.select("#texas_books").classed('hidden', true)
+                              // })
+                        
+                              //                   // d3.select("#step2").on('stepout', function() {
+                              //                   //   /* For each step where you change graphics
+                              //                   //   you'll need a .classed('hidden'...
+                              //                   //   for every iframe you added above.
+                              //                   //   I have two charts, so I have two of these */
+                                                  
+                              //                   //   /* Hide the first chart, show the second chart */
+                              //                   //   d3.select("#texas_books").classed('hidden', false)
+                              //                   //   d3.select("#books_by_school_district").classed('hidden', true)
+                              //                   // })
+                        
+                              //                                   d3.select("#step3").on('stepout', function() {
+                              //                                     /* For each step where you change graphics
+                              //                                     you'll need a .classed('hidden'...
+                              //                                     for every iframe you added above.
+                              //                                     I have two charts, so I have two of these */
+                                                                  
+                              //                                     /* Hide the first chart, show the second chart */
+                              //                                     d3.select("#books_by_school_district").classed('hidden', false)
+                              //                                     d3.select("#books_by_libraries").classed('hidden', true)
+                              //                                   })
+                        
+                        
+                        
+                        
+                        
+                            </script>
                           
                               <script>
                                 const scroller = scrollama()
