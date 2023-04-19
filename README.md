@@ -40,7 +40,7 @@ You can see all the minor words I selected [here](https://github.com/ivynyayieka
 
 # Tech
 
-Python, R, Adobe Illustrator, Datawrapper, Flourish, ai2html
+Python, R, Adobe Illustrator, Datawrapper, Flourish, ai2html, D3, scrollama
 
 # Sources
 [Pronouns] (https://www.thefreedictionary.com/List-of-pronouns.htm)<br/>
