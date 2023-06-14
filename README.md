@@ -1,3 +1,4 @@
+# [Banned Books](https://ivynyayieka.github.io/banned_books/)
 In this project, I analysed banned books across the world and within the United States. Even though the global database contained books starting from the 1300s, I limited my analysis to 1920 to 2020, a period for which I thought reporting of bans could be considered more reliable. <br />
 
 # How I analysed the most banned books:
